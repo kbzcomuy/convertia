@@ -9,8 +9,6 @@
 
 	<!-- container -->
 	<div class="container">
-		<!-- jumbotron -->
-<?php include("_jumbotron.php");?>
 
 		<!-- bootstrap grid -->
 		<div class="row">
