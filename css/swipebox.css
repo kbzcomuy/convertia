@@ -1,0 +1,57 @@
+/* swipebox */
+#swipebox-slider .slide {
+    padding: 10px;
+}
+@media (min-width: 768px) {
+	#swipebox-slider .slide {
+	    padding: 40px;
+	}
+}
+#swipebox-bottom-bar {
+    bottom: 0;
+    top: 50px;
+}
+#swipebox-bottom-bar.visible-bars {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+#swipebox-bottom-bar, #swipebox-top-bar {
+    background: transparent;
+}
+#swipebox-bottom-bar {
+	height: calc(100% - 50px);
+}
+#swipebox-arrows {
+	width: 100%;
+	height: 100%;
+	max-width: none;
+}
+#swipebox-prev,
+#swipebox-next {
+	width: 50%;
+	height: 100%;
+}
+#swipebox-prev {
+	background-image: url(../images/swipebox/swipebox-prev.png) !important;
+	background-repeat: no-repeat;
+	border: none !important;
+	text-decoration: none !important;
+	cursor: pointer;
+	background-position: 10% 50%;
+    float: left;
+}
+#swipebox-next {
+	background-image: url(../images/swipebox/swipebox-next.png) !important;
+	background-repeat: no-repeat;
+	border: none !important;
+	text-decoration: none !important;
+	cursor: pointer;
+	background-position: 90% 50%;
+    float: right;
+}
+/*
+#swipebox-bottom-bar {
+	border: 1px solid red;
+}
+*/
+/* end swipebox */
