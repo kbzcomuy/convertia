@@ -14,41 +14,11 @@ var Site = {
 		$(window).resize(Site.onResize);
 
 		Site.initSwipebox();
-		Site.initIsotope();
 		Site.initVegas();
 		Site.kbzJquery();
 	},
 	isMobile: function(){
 		return ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
-	},
-	initIsotope: function(){
-
-		// isotope init
-		var $grid = $('.grid').isotope({
-			itemSelector: '.grid-item',
-			percentPosition: true,
-			masonry: {
-				// use element for option
-				columnWidth: '.grid-sizer'
-			}
-		});
-		// layout isotope after each image loads
-		$grid.imagesLoaded().progress( function() {
-			$grid.isotope('layout');
-		});
-		// filters
-		$('.filter-button-group').on( 'click', 'button', function() {
-			var filterValue = $(this).attr('data-filter');
-			$grid.isotope({ filter: filterValue });
-		});
-		// filters change is-checked class on buttons
-		$('.button-group').each( function( i, buttonGroup ) {
-			var $buttonGroup = $( buttonGroup );
-			$buttonGroup.on( 'click', 'button', function() {
-				$buttonGroup.find('.is-checked').removeClass('is-checked');
-				$( this ).addClass('is-checked');
-			});
-		});
 	},
 	onResize: function(){
 

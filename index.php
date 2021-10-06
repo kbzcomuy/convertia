@@ -70,9 +70,6 @@
 		</div>
 		<!-- bootstrap grid -->
 
-		<!-- isotope -->
-<?php include("_isotope.php");?>
-
 	</div>
 	<!-- end conatiner -->
 

@@ -18,8 +18,6 @@
 	<!-- css swipebox -->
 	<link rel="stylesheet" type="text/css" href="/vendor/swipebox/css/swipebox.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="/css/swipebox.css" media="screen" />
-	<!-- isotope -->
-	<link rel="stylesheet" type="text/css" href="/css/isotope.css" media="screen" />
 	<!-- animate -->
 	<link rel="stylesheet" type="text/css" href="/css/animate.css" media="screen" />
 	<!-- css custom -->

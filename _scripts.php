@@ -29,20 +29,6 @@
 	<!-- swipebox -->
 	<script type="text/javascript" src="/vendor/swipebox/js/jquery.swipebox.min.js"></script>
 
-
-
-	<!-- isotope v3.0.6 -->
-	<script type="text/javascript" src="/vendor/isotope/isotope.pkgd.min.js"></script>
-<?php /*
-	<!-- cdn isotope v3.0.6 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" crossorigin="anonymous"></script>
-*/?>
-	<!-- imagesloaded v4.1.4 -->
-	<script type="text/javascript" src="/vendor/isotope/imagesloaded.pkgd.min.js"></script>
-<?php /*
-	<!-- cdn imagesloaded v3.0.6 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" crossorigin="anonymous"></script>
-*/?>
 	<!-- vegas v2.5.1 -->
 	<script type="text/javascript" src="/vendor/vegas/vegas.min.js"></script>
 	<!-- custom -->
