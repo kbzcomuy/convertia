@@ -28,6 +28,9 @@
 */?>
 	<!-- swipebox -->
 	<script type="text/javascript" src="/vendor/swipebox/js/jquery.swipebox.min.js"></script>
+	<!-- scrollify -->
+	<script type="text/javascript" src="/vendor/scrollify/jquery.scrollify.js"></script>
+
 
 	<!-- vegas v2.5.1 -->
 	<script type="text/javascript" src="/vendor/vegas/vegas.min.js"></script>
