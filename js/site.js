@@ -14,7 +14,7 @@ var Site = {
 		$(window).resize(Site.onResize);
 
 		Site.initSwipebox();
-		Site.initVegas();
+		// Site.initVegas();
 		Site.kbzJquery();
 	},
 	isMobile: function(){
