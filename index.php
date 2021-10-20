@@ -7,71 +7,72 @@
 	<!-- navbar  -->
 <?php include("_nav.php");?>
 
-	<!-- container -->
-	<div class="container">
+	<!-- intro  -->
+<?php include("_intro.php");?>
 
-		<!-- bootstrap grid -->
-		<div class="row">
-			<div class="col">
-				<div>1 of 2</div>
-			</div>
-			<div class="col">
-				<div>2 of 2</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<div>1 of 3</div>
-			</div>
-			<div class="col">
-				<div>2 of 3</div>
-			</div>
-			<div class="col">
-				<div>3 of 3</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
+	<!-- welcome  -->
+<?php include("_welcome.php");?>
+
+	<!-- smart-methodology  -->
+<?php include("_smart-methodology.php");?>
+
+	<!-- technology  -->
+<?php include("_technology.php");?>
+
+	<!-- success-stories  -->
+<?php include("_success-stories.php");?>
+
+	<!-- clients  -->
+<?php include("_clients.php");?>
+
+	<!-- publications  -->
+<?php include("_publications.php");?>
+
+	<!-- contact  -->
+<?php include("_contact.php");?>
+
+	<?php /*
+	<section class="container-fluid full-page kbz-test custom-padd">
+		<div class="row row-fluid">
+			<div class="col colkbz">
 				<div>01 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>02 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>03 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>04 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>05 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>06 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>07 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>08 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>09 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>10 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>11 of 12</div>
 			</div>
-			<div class="col">
+			<div class="col colkbz">
 				<div>12 of 12</div>
 			</div>
 		</div>
-		<!-- bootstrap grid -->
-
-	</div>
-	<!-- end conatiner -->
+	</section>
+	*/ ?>
 
 	<!-- footer -->
 <?php include("_footer.php");?>
