@@ -15,13 +15,20 @@ var Site = {
 
 		Site.initSwipebox();
 		// Site.initVegas();
+		Site.scrollify();
 		Site.kbzJquery();
+		Site.onResize();
 	},
 	isMobile: function(){
 		return ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
 	},
 	onResize: function(){
-
+		var ancho = window.innerWidth;
+		if (ancho >= 768) {
+			$.scrollify.enable();
+		} else {
+			$.scrollify.disable();
+		}
 	},
 	initSwipebox: function(){
 		$('.swipebox').swipebox( {
@@ -45,27 +52,40 @@ var Site = {
 			]
 		});
 	},
-	// kbzJquery
-	kbzJquery: function(){
+	// scrollify
+	scrollify: function(){
 		$(function() {
 			$.scrollify({
-			    section : "section.page",
-			    // sectionName : "section-name",
-			    interstitialSection : "",
-			    easing: "easeOutExpo",
-			    scrollSpeed: 1100,
-			    offset : 0,
-			    scrollbars: true,
-			    standardScrollElements: "",
-			    setHeights: false,
-			    overflowScroll: true,
-			    updateHash: true,
-			    touchScroll:true,
-			    before:function() {},
-			    after:function() {},
-			    afterResize:function() {},
-			    afterRender:function() {}
-			  });
+				section : ".full-page",
+				// sectionName : "section-name",
+				interstitialSection : "",
+				easing: "easeOutExpo",
+				scrollSpeed: 1100,
+				offset : 0,
+				scrollbars: true,
+				standardScrollElements: "",
+				setHeights: false,
+				overflowScroll: true,
+				updateHash: true,
+				touchScroll:true,
+				before:function() {},
+				after:function() {},
+				afterResize:function() {},
+				afterRender:function() {}
+			});
+		});
+	},
+	// kbzJquery
+	kbzJquery: function(){
+
+		// affix
+		$(window).on('scroll', function (event) {
+			var scrollValue = $(window).scrollTop();
+			if (scrollValue > 45) {
+				$('.navbar').addClass('affix');
+			} else{
+				$('.navbar').removeClass('affix');
+			}
 		});
 	}
 }
