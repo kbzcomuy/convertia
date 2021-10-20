@@ -1,6 +1,6 @@
 	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-			<a class="navbar-brand" href="#">Navbar</a>
+		<nav class="navbar navbar-expand-lg fixed-top custom-padd">
+			<a class="navbar-brand" href="#"><?php include("_svg-convertia.php");?><h1>Convertia</h1></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>

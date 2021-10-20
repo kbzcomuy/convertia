@@ -68,4 +68,4 @@ https://github.com/kbzcomuy/convertia
 ## Observaciones
 
 - intro p deberia ser un hexa no usar opacity
-
+- preciso el logo en PNG o SVG mejor para poder animar los círculos
