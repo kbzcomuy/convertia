@@ -2,7 +2,7 @@
 	<section class="container-fluid full-page center-vert technology custom-padd">
 		<div class="row w-100">
 			<div class="col-12 col-md-6 no-padding">
-				<h2>Tecnología<br />inConcert</h2>
+				<h2 class="white">Tecnología<br />inConcert</h2>
 				<button class="bg-blue mb-3">Conoce más</button>
 			</div>
 			<div class="col-6 col-md-3 no-padding smart-card-left">

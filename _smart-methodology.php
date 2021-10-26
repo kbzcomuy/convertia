@@ -2,7 +2,7 @@
 	<section class="container-fluid full-page center-vert smart-methodology custom-padd">
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<h2 class="h2-blue">Metodología<br />SMART<br />Convertia</h2>
+				<h2>Metodología<br />SMART<br />Convertia</h2>
 				<button class="bg-green mb-3">Conoce más</button>
 			</div>
 			<div class="col-6 col-md-3 no-padding smart-card-left">

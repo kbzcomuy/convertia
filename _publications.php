@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-12 order-2 col-md-6 order-md-1 colkbz center-vert custom-padd publications-left">
 				<div>
-					<h2 class="h2-blue d-none d-md-block">Últimas<br />publicaciones</h2>
+					<h2 class="d-none d-md-block">Últimas<br />publicaciones</h2>
 					<button class="bg-green d-none d-md-block">Visita nuestro blog</button>
 					<div class="box-wrapper">
 						<img src="/images/quotations.jpg" alt="" class="box-icon">
@@ -27,7 +27,7 @@
 			</div>
 			<div class="col-12 order-1 col-md-6 order-md-2 colkbz center-vert custom-padd ss-right">
 				<div>
-					<h2 class="h2-blue d-block d-md-none">Casos de éxito</h2>
+					<h2 class="d-block d-md-none">Casos de éxito</h2>
 					<div class="cards-wrapper">
 						<div class="card">
 							<div class="row">

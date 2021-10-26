@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-12 col-md-6 colkbz center-vert custom-padd">
 				<div>
-					<h2 class="h2-blue">Clientes</h2>
+					<h2>Clientes</h2>
 					<div class="box-wrapper">
 						<img src="/images/diamond.jpg" alt="" class="box-icon">
 						<div class="row">

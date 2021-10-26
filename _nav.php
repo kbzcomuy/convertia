@@ -8,16 +8,16 @@
 			<div class="collapse navbar-collapse" id="navbarsExample09">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Tecnología</a>
+						<a class="nav-link technology" href="/tecnologia.php">Tecnología</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Servicios</a>
+						<a class="nav-link services" href="#">Servicios</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Nosotros</a>
+						<a class="nav-link aboutus" href="#">Nosotros</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Blog</a>
+						<a class="nav-link blog" href="#">Blog</a>
 					</li>
 				</ul>
 			</div>

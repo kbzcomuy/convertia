@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-6 colkbz center-vert custom-padd">
                 <div class="w-100">
-                    <h2 class="h2-blue">Contáctenos</h2>
+                    <h2>Contáctenos</h2>
                 </div>
             </div>
             <div class="col-12 order-1 col-md-6 order-md-2 colkbz center-vert custom-padd ss-right">

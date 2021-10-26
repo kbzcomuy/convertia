@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include("_head.php");?>
-<body>
+<body class="home">
 	<!-- analytics -->
 <?php include("_analytics.php");?>
 	<!-- navbar  -->
