@@ -1,6 +1,7 @@
 /*
 - fonts
 - html body generic classes
+- form
 - boostrap / nav
 - containers
 - sections
@@ -18,9 +19,8 @@
 	/*--skyblue: #4ae0db;*/
 	--skyblue: #36e1db;
 	--green: #59E2AD;
+	--darkGreen: #0e6864;
 }
-
-
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
@@ -57,18 +57,26 @@ cite {
 	line-height: 24px;
 }
 h1 {
-	color: #FFF;
+	color: #fff;
 }
 nav h1 {
 	display: none;
 }
 h2 {
-	color: #FFF;
+	color: var(--blue);
 	font-size: 40px;
 	line-height: 50px;
 	font-weight: bold;
 	margin-bottom: 30px;
 	letter-spacing: .5px;
+	margin-bottom: 30px;
+}
+h3 {
+	color: var(--blue);
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 500;
+	opacity: 0.7;
 	margin-bottom: 30px;
 }
 @media(max-width: 500px) {
@@ -77,8 +85,8 @@ h2 {
 		margin-bottom: 15px;
 	}
 }
-h2.h2-blue {
-	color: var(--blue);
+.white {
+	color: #fff;
 }
 i {
 	font-size: 2em;
@@ -154,6 +162,16 @@ button.bg-green:focus {
 	text-decoration: underline;
 	text-decoration-color: var(--green);
 }
+button.border-blue {
+	border: 1px solid var(--blue);
+}
+button.border-blue:hover,
+button.border-blue:focus {
+	border: none;
+}
+/* end html body generic classes */
+
+
 
 /* form */
 section.publications .form-button-right {
@@ -234,28 +252,42 @@ input[type=checkbox]:checked:before {
 	background-color: var(--green);
 }
 /* end form */
-/* end html body generic classes */
 
 
 
 /* boostrap */
 /* nav */
 nav {
-	background-color: transparent;
+	background-color: #fff;
+	box-shadow: 0 5px 10px 0 rgba(43, 44, 84, 0.1);
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-nav.affix {
+body.home nav {
+	box-shadow: none;
+}
+body.home nav.affix {
 	background-color: var(--darkblue);
+	box-shadow: 0 5px 10px 0 rgba(43, 44, 84, 0.1);
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+body.home nav {
+	background-color: transparent;
+}
+body.home nav #convertia-svg #circ-out path:first-child,
+body.home nav #convertia-svg #center circle,
+body.home nav #convertia-svg .letter path,
+body.home nav #convertia-svg .letter polygon {
+	fill: #fff;
+}
+
 nav a.nav-link {
 	font-size: 13px;
 	line-height: 13px;
@@ -264,8 +296,16 @@ nav a.nav-link {
 	padding-left: 20px!important;
 	padding-right: 20px!important;
 }
-nav a {
+body.home nav a {
 	color: #FFFFFF;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+nav a {
+	color: var(--blue);
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -281,6 +321,9 @@ nav a:focus {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+body.technology nav a.technology {
+	color: var(--green)
+}
 /* end nav */
 /* end boostrap */
 
@@ -288,9 +331,8 @@ nav a:focus {
 
 /* containers */
 .full-page {
-	/*min-height: 100vh;*/
-	min-height: auto;
-	/*padding: 0 30px;*/
+	/*min-height: auto;*/
+	min-height: 100vh;
 }
 .center-vert {
 	display: flex;
@@ -307,6 +349,9 @@ nav a:focus {
 .custom-padd {
 	padding: 100px;
 	padding-top: 120px;
+}
+.custom-padd-h {
+	padding: 0 100px;
 }
 footer.custom-padd {
 	padding: 85px 100px;
@@ -325,6 +370,9 @@ nav.custom-padd {
 	footer.custom-padd {
 		padding: 90px;
 	}
+	.custom-padd-h {
+		padding: 0 90px;
+	}
 }
 @media(max-width: 992px) {
 	.custom-padd {
@@ -336,6 +384,9 @@ nav.custom-padd {
 	}
 	footer.custom-padd {
 		padding: 60px;
+	}
+	.custom-padd-h {
+		padding: 0 60px;
 	}
 }
 @media(max-width: 768px) {
@@ -349,6 +400,9 @@ nav.custom-padd {
 	footer.custom-padd {
 		padding: 45px;
 	}
+	.custom-padd-h {
+		padding: 0 45px;
+	}
 }
 @media(max-width: 500px) {
 	.custom-padd {
@@ -360,6 +414,9 @@ nav.custom-padd {
 	}
 	footer.custom-padd {
 		padding: 30px;
+	}
+	.custom-padd-h {
+		padding: 0 30px;
 	}
 }
 /* end containers */
@@ -378,7 +435,7 @@ section.intro {
 	text-align: left;
 }
 /* kbz 'laptop' (warning! >1200 to 5k display more than '.col-xl-') */
-.intro-info h2 {
+body.home .intro-info h2 {
 	font-size: 60px;
 	line-height: 70px;
     font-weight: bold;
@@ -386,42 +443,35 @@ section.intro {
 }
 /* kbz 1st break responsive */
 @media(max-width: 1200px) {
-	.intro-info h2 {
+	body.home  .intro-info h2 {
 		font-size: 50px;
 		font-size: calc( 58px * 86 / 100);
 	}
 }
 /* kbz 2nd break */
 @media(max-width: 992px) {
-	.intro-info h2 {
+	body.home .intro-info h2 {
 		font-size: 42px;
 		font-size: calc( 58px * 72 / 100);
 	}
 }
 /* kbz 3th break: 'ipad' vertical */
 @media(max-width: 768px) {
-	.intro-info h2 {
+	body.home .intro-info h2 {
 		font-size: 42px;
 		font-size: calc( 58px * 72 / 100);
 	}
 }
 /* kbz 4th break: 'mobile' (min-width chrome browser) */
 @media(max-width: 500px) {
-	.intro-info h2 {
+	body.home .intro-info h2 {
 		font-size: 32px;
 	}
-}
-.intro-info h3 {
-	color: #fff;
-	font-size: 28px;
-	line-height: 38px;
-	font-weight: 500;
-	opacity: 0.7;
-	margin-bottom: 30px;
 }
 .intro-info button {
 	margin-top: 15px;
 	margin-bottom: 45px;
+	margin-right: 15px;
 }
 @media(max-width: 768px) {
 	.intro-info {
@@ -894,73 +944,38 @@ footer button {
 	opacity: .5;
 	text-decoration: underline;
 }
-/*
-footer.custom-padd {
-	padding-top: 0;
-	padding-bottom: 0;
-}
-footer span {
-	color: #FFF;
-	opacity: .5;
-	font-family: 'Roboto', 'Hevetica', 'Arial', sans-serif;
-	color: #FFF;
-	font-size: 12px;
-	line-height: 16px;
-	display: inline-block;
-	padding-top: 32px;
-}
-footer span.right {
-	float: right;
-}
-@media(max-width: 768px) {
-	footer span {
-		display: block;
-		padding-top: 12px;
-	}
-	footer span.right {
-		float: none;
-		padding-top: 0px;
-	}
-}
-*/
 /* end footer */
 
 
 
-/* kbz cols to taste and erase */
-.kbz-test {
-	color: #FFF;
-	background-color: #F00;
+
+/* tecnologia */
+body.technology .intro-technology {
+	background-color: var(--blue);
 }
-/* end kbz cols to taste and erase */
-
-/* end sections */
-
-
-
-/* Extra small devices (portrait phones, less than 576px)
-No media query for 'xs' since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+body.technology .intro-technology .intro-img {
 
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+body.technology .intro-technology .intro-img img {
+	margin-bottom: -220px;
+}
+body.technology .intro-up {
+	background-color: #fff;
+}
+body.technology h3 {
+	font-family: 'Roboto', 'Hevetica', 'Arial', sans-serif;
+	opacity: 0.7;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #404040;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
 
-}
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
-}
 
-/* Extra large devices (large desktops)
-No media query since the extra-large breakpoint has no upper bound on its width */
-/* animation
+
+
+
+/* end sections
