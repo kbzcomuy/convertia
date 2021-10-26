@@ -1,6 +1,6 @@
 	<!-- success-stories -->
 	<section class="container-fluid full-page success-stories">
-		<div class="row row-fluid">
+		<div class="row">
 			<div class="col-12 order-2 col-md-6 order-md-1 colkbz center-vert custom-padd ss-left">
 				<div>
 					<h2 class="h2-blue d-none d-md-block">Casos de éxito</h2>

@@ -1,6 +1,6 @@
 	<!-- intro -->
 	<section class="container-fluid full-page intro">
-		<div class="row row-fluid">
+		<div class="row">
 			<div class="col-12 col-md-6 colkbz intro-info center-vert order-2 order-md-1 custom-padd">
 				<div class="w-100">
 					<h2>Maximiza tus resultados</h2>

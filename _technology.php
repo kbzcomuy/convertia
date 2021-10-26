@@ -1,7 +1,7 @@
 	<!-- technology -->
 	<section class="container-fluid full-page center-vert technology custom-padd">
-		<div class="row">
-			<div class="col-12 col-md-6">
+		<div class="row w-100">
+			<div class="col-12 col-md-6 no-padding">
 				<h2>Tecnología<br />inConcert</h2>
 				<button class="bg-blue mb-3">Conoce más</button>
 			</div>

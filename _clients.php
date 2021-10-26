@@ -1,6 +1,6 @@
 	<!-- clients -->
 	<section class="container-fluid full-page clients">
-		<div class="row row-fluid">
+		<div class="row">
 			<div class="col-12 col-md-6 colkbz center-vert custom-padd">
 				<div>
 					<h2 class="h2-blue">Clientes</h2>
