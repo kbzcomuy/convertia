@@ -16,6 +16,7 @@ var Site = {
 		Site.initSwipebox();
 		// Site.initVegas();
 		Site.scrollify();
+		Site.affix();
 		Site.kbzJquery();
 		Site.onResize();
 	},
@@ -75,10 +76,8 @@ var Site = {
 			});
 		});
 	},
-	// kbzJquery
-	kbzJquery: function(){
-
-		// affix
+	// affix
+	affix: function(){
 		$(window).on('scroll', function (event) {
 			var scrollValue = $(window).scrollTop();
 			if (scrollValue > 45) {
@@ -87,6 +86,10 @@ var Site = {
 				$('.navbar').removeClass('affix');
 			}
 		});
+	},
+	// kbzJquery
+	kbzJquery: function(){
+
 	}
 }
 
