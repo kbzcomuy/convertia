@@ -12,16 +12,6 @@
 	- footer
 */
 
-:root {
-	/* colors */
-	--blue: #2B2C54;
-	--darkblue: #20213f;
-	/*--skyblue: #4ae0db;*/
-	--skyblue: #36e1db;
-	--green: #59E2AD;
-	--darkGreen: #0e6864;
-}
-
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
@@ -63,7 +53,7 @@ nav h1 {
 	display: none;
 }
 h2 {
-	color: var(--blue);
+	color: #2B2C54;
 	font-size: 40px;
 	line-height: 50px;
 	font-weight: bold;
@@ -72,7 +62,7 @@ h2 {
 	margin-bottom: 30px;
 }
 h3 {
-	color: var(--blue);
+	color: #2B2C54;
 	font-size: 28px;
 	line-height: 38px;
 	font-weight: 500;
@@ -94,7 +84,7 @@ i {
 button {
 	font-size: 16px;
 	line-height: 16px;
-	color: var(--blue);
+	color: #2B2C54;
 	padding: 14px 32px;
 	padding-top: 16px;
 	border-radius: 32px;
@@ -109,7 +99,7 @@ button {
 }
 button:hover,
 button:focus {
-	background-color: var(--green);
+	background-color: #59E2AD;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -128,9 +118,9 @@ button.bg-blue {
 }
 button.bg-blue:hover,
 button.bg-blue:focus {
-	color: var(--blue);
-	background-color: var(--green);
-	border: 1px solid var(--green);
+	color: #2B2C54;
+	background-color: #59E2AD;
+	border: 1px solid #59E2AD;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -138,9 +128,9 @@ button.bg-blue:focus {
 	transition: all 0.3s ease;
 }
 button.bg-green {
-	color: var(--blue);
+	color: #2B2C54;
 	background-color: transparent;
-	border: 1px solid var(--blue);
+	border: 1px solid #2B2C54;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -150,7 +140,7 @@ button.bg-green {
 button.bg-green:hover,
 button.bg-green:focus {
 	color: #FFF;
-	background-color: var(--blue);
+	background-color: #2B2C54;
 	/*border: 1px solid #FFF;*/
 
 	-webkit-transition: all 0.3s ease;
@@ -160,10 +150,10 @@ button.bg-green:focus {
 }
 .green-underline {
 	text-decoration: underline;
-	text-decoration-color: var(--green);
+	text-decoration-color: #59E2AD;
 }
 button.border-blue {
-	border: 1px solid var(--blue);
+	border: 1px solid #2B2C54;
 }
 button.border-blue:hover,
 button.border-blue:focus {
@@ -188,7 +178,7 @@ section.publications .form-button-right button {
 	height: 50px;
 	border-radius: 50px;
 	padding: 0 30px;
-	background-color: var(--blue);
+	background-color: #2B2C54;
 	font-size: 14px;
 	line-height: 50px;
 	font-weight: bold;
@@ -199,8 +189,8 @@ section.publications .form-button-right button {
 .form-button-right button:hover,
 .form-button-right button:focus {
 	border: none;
-	color: var(--blue);
-	background-color: var(--skyblue);
+	color: #2B2C54;
+	background-color: #36e1db;
 	border: none;
 	box-shadow: none;
 }
@@ -248,8 +238,8 @@ input[type=checkbox]:before {
 	transition: all 0.2s linear;
 }
 input[type=checkbox]:checked:before {
-	border: 1px solid var(--green);
-	background-color: var(--green);
+	border: 1px solid #59E2AD;
+	background-color: #59E2AD;
 }
 /* end form */
 
@@ -270,7 +260,7 @@ body.home nav {
 	box-shadow: none;
 }
 body.home nav.affix {
-	background-color: var(--darkblue);
+	background-color: #20213f;
 	box-shadow: 0 5px 10px 0 rgba(43, 44, 84, 0.1);
 
 	-webkit-transition: all 0.3s ease;
@@ -305,7 +295,7 @@ body.home nav a {
 	transition: all 0.3s ease;
 }
 nav a {
-	color: var(--blue);
+	color: #2B2C54;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -314,7 +304,7 @@ nav a {
 }
 nav a:hover,
 nav a:focus {
-	color: var(--green);
+	color: #59E2AD;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -322,7 +312,7 @@ nav a:focus {
 	transition: all 0.3s ease;
 }
 body.technology nav a.technology {
-	color: var(--green)
+	color: #59E2AD
 }
 /* end nav */
 /* end boostrap */
@@ -427,7 +417,7 @@ nav.custom-padd {
 
 /* intro */
 section.intro {
-	background-color: var(--blue);
+	background-color: #2B2C54;
 	min-height: 100vh;
 }
 .intro-info {
@@ -494,12 +484,12 @@ body.home .intro-info h2 {
 }
 @media(max-width: 767px) {
 	section.intro {
-		background-color: var(--green);
+		background-color: #59E2AD;
 		min-height: 100vh;
 	}
 	.intro-info,
 	.intro-info h3 {
-		color: var(--blue);
+		color: #2B2C54;
 	}
 	.intro-info p {
 		font-size: 15px;
@@ -528,7 +518,7 @@ section.welcome p {
 
 /* smart-methodology */
 section.smart-methodology {
-	background-color: var(--green);
+	background-color: #59E2AD;
 }
 section.smart-methodology header {
 	position: absolute;
@@ -551,7 +541,7 @@ section.smart-methodology header {
 	line-height: 24px;
 	left: 45px;
 	bottom: 30px;
-	color: var(--blue);
+	color: #2B2C54;
 	margin: 0;
 }
 .card-icon {
@@ -600,7 +590,7 @@ section.smart-methodology header {
 
 /* technology */
 section.technology {
-	background-color: var(--blue);
+	background-color: #2B2C54;
 }
 /* end technology */
 
@@ -611,7 +601,7 @@ section.success-stories {
 	background-color: #FFF;
 }
 section.success-stories .ss-left {
-	background-color: var(--green);
+	background-color: #59E2AD;
 	min-height: 100vh;
 }
 .box-wrapper {
@@ -638,11 +628,11 @@ section.success-stories .ss-left {
 }
 @media(max-width: 768px) {
 	section.success-stories {
-		background-color: var(--skyblue);
+		background-color: #36e1db;
 	}
 	section.success-stories .ss-left {
 		padding: 0!important;
-		background-color: var(--green);
+		background-color: #59E2AD;
 		min-height: auto;
 	}
 	.box-wrapper {
@@ -695,7 +685,7 @@ section.success-stories .ss-left {
 	}
 }
 .card .card-title {
-	color: var(--green);
+	color: #59E2AD;
   	color: #30db98;
   	font-size: 12px;
   	font-weight: bold;
@@ -716,11 +706,11 @@ section.clients {
 }
 @media(max-width: 768px) {
 	section.clients {
-		background-color: var(--green);
+		background-color: #59E2AD;
 	}
 }
 section.clients .clients-right {
-	background-color: var(--blue);
+	background-color: #2B2C54;
 	min-height: 100vh;
 }
 section.clients .box-wrapper img.box-icon {
@@ -745,7 +735,7 @@ section.publications {
 
 }
 section.publications .publications-left {
-	background-color: var(--skyblue);
+	background-color: #36e1db;
 	min-height: 100vh;
 }
 /* end publications */
@@ -754,7 +744,7 @@ section.publications .publications-left {
 
 /* contact */
 section.contact {
-	background-color: var(--green);
+	background-color: #59E2AD;
 }
 section.contact .box-wrapper {
 	margin-top: 0;
@@ -772,15 +762,15 @@ form.form-contact .form-group {
 form.form-contact .form-control {
 	background-color: #fff;
 	border: 0;
-	border-bottom: 2px solid var(--green);
+	border-bottom: 2px solid #59E2AD;
 	padding-left: 0;
 }
 form.form-contact .form-control:focus {
-	border-bottom: 2px solid var(--blue);
+	border-bottom: 2px solid #2B2C54;
 }
 form.form-contact .form-button-right button:hover,
 form.form-contact .form-button-right button:focus {
-	background-color: var(--green);
+	background-color: #59E2AD;
 }
 /* end contact */
 
@@ -813,7 +803,7 @@ footer h6 {
 }
 .office a:hover,
 .office a:focus {
-	color: var(--green);
+	color: #59E2AD;
 	text-decoration: underline;
 }
 .net-socials {
@@ -851,7 +841,7 @@ footer h6 {
 	height: 40px;
 	border-radius: 20px;
 	text-align: center;
-	border: 1px solid var(--green);
+	border: 1px solid #59E2AD;
 	background-color: #FFF;
 
 	-webkit-transition: all 0.3s ease;
@@ -861,7 +851,7 @@ footer h6 {
 }
 .net-socials ul li a:hover,
 .net-socials ul li a:focus {
-	background-color: var(--green);
+	background-color: #59E2AD;
 
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -869,7 +859,7 @@ footer h6 {
 	transition: all 0.3s ease;
 }
 .net-socials ul li a i {
-	color: var(--green);
+	color: #59E2AD;
 	font-size: 18px;
 	line-height: 40px;
 
@@ -915,7 +905,7 @@ footer button {
 	padding-top: 0;
 	padding-bottom: 0;
 	height: 100px;
-	background-color: var(--blue);
+	background-color: #2B2C54;
 }
 @media(max-width: 768px) {
 	.footer-down span {
@@ -951,7 +941,7 @@ footer button {
 
 /* tecnologia */
 body.technology .intro-technology {
-	background-color: var(--blue);
+	background-color: #2B2C54;
 }
 body.technology .intro-technology .intro-img {
 
@@ -970,12 +960,4 @@ body.technology h3 {
 	font-weight: normal;
 	color: #404040;
 }
-
-
-
-
-
-
-
-
 /* end sections
