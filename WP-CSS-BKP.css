@@ -32,6 +32,7 @@ body {
     font-weight: 100;
     color: #404040;
     background-color: #FFF;
+    padding: 0 !important;
 }
 
 p {
@@ -350,9 +351,23 @@ section.publications input[type=checkbox]:checked:before {
 
 /* boostrap */
 /* nav */
+body.picostrap_header_navbar_position_fixed-top {
+    padding-top: 0 !important;
+}
+
+.inner-nav {
+    display: flex;
+}
+
+.navbar-nav li:last-child a {
+    padding-right: 0 !important;
+}
+
 nav {
+    padding: 0 !important;
     background-color: #fff;
     box-shadow: 0 5px 10px 0 rgba(43, 44, 84, 0.1);
+    min-height: 70px;
 
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -364,6 +379,7 @@ nav .nav-link {
     font-size: 13px;
     line-height: 13px;
     font-weight: bold;
+    color: #555676;
 
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -386,6 +402,14 @@ nav a:focus {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: inline-flex;
+        justify-content: flex-end;
+    }
 }
 
 /* end nav */
@@ -593,7 +617,7 @@ section.smart-methodology {
     width: 100%;
     height: auto;
     float: right;
-    max-width: 150px;
+    max-width: 136px;
     box-shadow: 10px 10px 40px 0 rgba(32, 33, 63, 0.15);
     border-radius: 50%;
 }
@@ -650,6 +674,11 @@ section.smart-methodology {
 /* technology */
 section.technology {
     background-color: #2B2C54;
+}
+
+section.technology .card-icon {
+    border-radius: 0;
+    max-width: 136px;
 }
 
 /* end technology */
@@ -814,13 +843,16 @@ section.clients {
 
     section.clients .sect-right {
         background-color: #2b2c54;
-        padding-top: 45px !important;
     }
 
     section.clients .box-wrapper {
         margin-bottom: 60px;
     }
 
+}
+
+section.clients .box-wrapper {
+    margin: 0;
 }
 
 section.clients .box-wrapper img.box-icon {
@@ -831,7 +863,8 @@ section.clients .box-wrapper img.box-icon {
 }
 
 section.clients .box-wrapper .logo {
-    padding-bottom: 30px;
+    padding: 0;
+    padding-bottom: 45px;
 }
 
 section.clients .box-wrapper .logo img {
@@ -930,11 +963,8 @@ section.contact .box-wrapper {
 }
 
 form.form-contact .colkbz {
-    padding: 10px;
-}
-
-form.form-contact .form-group {
-    margin: 0;
+    padding: 0 15px;
+    padding-bottom: 30px;
 }
 
 form.form-contact .form-group {
@@ -942,14 +972,29 @@ form.form-contact .form-group {
 }
 
 form.form-contact .form-control {
+    font-size: 13px;
     background-color: #fff;
     border: 0;
-    border-bottom: 2px solid #59E2AD;
-    padding-left: 0;
+    border-bottom: 1px solid #04d9d2;
+    padding: 0;
+    height: 32px;
 }
 
 form.form-contact .form-control:focus {
-    border-bottom: 2px solid #2B2C54;
+    border-bottom: 1px solid #04d9d2;
+}
+
+form.form-contact textarea.form-control {
+    margin-top: 30px;
+}
+
+form.form-contact .form-button-right {
+    padding: 0;
+    padding-left: 15px;
+}
+
+form.form-contact .form-button-right button {
+    background-color: #38396a;
 }
 
 form.form-contact .form-button-right button:hover,
@@ -1119,11 +1164,7 @@ section.footer-addresses button {
 
 
 /* footer */
-.footer-widget {
-    padding: 0;
-}
-
-section.footer {
+#wrapper-footer-widgets {
     background-color: #2B2C54 !important;
     font-size: 12px !important;
     line-height: 12px !important;
@@ -1133,34 +1174,31 @@ section.footer {
 }
 
 @media(max-width: 768px) {
-
-    section.footer {
+    #wrapper-footer-widgets {
         padding-top: 30px !important;
     }
 
-    /*#wrapper-footer-widgets {*/
-    /*padding-top: 30px !important;*/
-    /*}*/
-    section.footer span {
+    #wrapper-footer-widgets span {
         display: block !important;
     }
 }
 
-section.footer div.copyright,
-section.footer div.policy {
+#wrapper-footer-widgets div.copyright,
+#wrapper-footer-widgets div.policy {
     color: #FFF !important;
     opacity: .5;
     display: inline-block;
 }
 
-section.footer div.policy {
+#wrapper-footer-widgets div.policy {
+    float: right;
     text-align: right;
 }
 
 @media(max-width: 992px) {
 
-    section.footer div.copyright,
-    section.footer div.policy {
+    #wrapper-footer-widgets div.copyright,
+    #wrapper-footer-widgets div.policy {
         display: block;
         text-align: center;
         float: none;
