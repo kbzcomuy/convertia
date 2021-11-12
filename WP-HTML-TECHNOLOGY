@@ -1,0 +1,281 @@
+<!-- intro-technology -->
+<!--2 cuadrados-->
+<section class="intro-technology int-tech-up up-offset">
+    <div class="container-fluid">
+        <div class="row mid-full-page align-items-center">
+            <div class="col-12 col-md-4 offset-md-1 order-2 order-md-1 no-padding sect-left">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 no-padding">
+                    <div class="breadcrumbs">Tecnología</div>
+                    <h1>Más ventas. Menores costos. Toma el control.</h1>
+                    <h2>Accede al software all-in-one que transformará tus procesos de ventas, marketing y CX.</h2>
+                    <button class="btn-green">Hablemos</button>
+                    <button class="bg-green d-none d-md-inline-block">Solicita demo</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 offset-md-1 order-1 order-md-2 no-padding sect-right">
+                <div class="col-12 col-md-12 offset-md-0 no-padding">
+                    <img src="/wp-content/uploads/2021/11/demo-tecnologia.jpg" srcset="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="intro-technology int-tech-down">
+    <div class="container-fluid">
+        <div class="row mid-full-page align-items-center">
+            <div class="col-12 col-md-4 offset-md-1 no-padding sect-left">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 no-padding">
+                    <p><span class="h2-mobile">Proveemos una plataforma tecnológica integral</span> <span class="capitalize">potenciada</span> con inteligencia artificial y desarrollada por nuestro partner estratégico <a href="https://inconcertcc.com/" target="_blank" rel="noopener">inConcert</a>, líder en soluciones omnicanales para centros de contacto.</p>
+                    <p class="mb-0">Logra una adopción exitosa y el máximo rendimiento de la tecnología gracias al acompañamiento personalizado de nuestro equipo de consultores.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 offset-md-2 no-padding sect-right">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 no-padding">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end intro-technology -->
+
+<!-- technology-content -->
+<section class="technology-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 no-padding"></div>
+            <div class="col-10 no-padding">
+                <div class="row">
+                    <div class="col-12 col-md-5 no-padding order-2 order-md-1">
+                        <div class="tech-item">
+                            <div class="icon-wrapper">
+                                <img src="/wp-content/uploads/2021/11/conv-site-global-ico-ventas.svg" alt="Ventas">
+                            </div>
+                            <h3>Ventas</h3>
+                            <p>Acelera tus ventas y multiplica ingresos con un potente software adaptable tanto a ventas inmediatas como ciclos largos, a B2B o B2C.</p>
+                            <p class="mb-0">Vende más en menos tiempo integrando las funcionalidades de un CRM con una plataforma de contacto omnicanal.</p>
+                            <a href="" class="read-more">Leer más</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 order-1 order-md-2 no-padding">
+                        <div class="tech-item">
+                            <div class="icon-wrapper">
+                                <img src="/wp-content/uploads/2021/11/conv-site-global-ico-marketing.svg" alt="Marketing">
+                            </div>
+                            <h3>Marketing</h3>
+                            <p>Maximiza la inversión, genera más demanda y multiplica las conversiones con una avanzada plataforma de automatización de marketing.</p>
+                            <p class="mb-0">Integra medios digitales con los canales de ventas y acelera el avance de los leads a través del funnel.</p>
+                            <a href="" class="read-more">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-5 offset-md-1 no-padding">
+                        <div class="tech-item">
+                            <div class="icon-wrapper">
+                                <img src="/wp-content/uploads/2021/11/conv-site-global-ico-omnichannel-cx.svg" alt="Omnichannel CX">
+                            </div>
+                            <h3>Omnichannel CX</h3>
+                            <p>Crea experiencias de contacto únicas y personalizadas mediante una plataforma omnicanal potenciada con autoservicio.</p>
+                            <p class="mb-0">Garantiza óptimos niveles de servicio -y el mayor rendimiento de tus agentes- con poderosas plataformas de supervisión, coaching y analítica.</p>
+                            <a href="" class="read-more">Leer más</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-1 no-padding">
+                        <div class="tech-item">
+                            <div class="icon-wrapper">
+                                <img src="/wp-content/uploads/2021/11/conv-site-global-ico-inteligencia-artificial.svg" alt="Inteligencia Artificial">
+                            </div>
+                            <h3>Inteligencia Artificial</h3>
+                            <p>Reduce costos y potencia tus resultados implementando chatbots y voicebots inteligentes en tu estrategia de atención y ventas.</p>
+                            <p class="mb-0">Utiliza la innovadora tecnología de Speech Analytics para extraer datos de las interacciones y convertirlos en inteligencia de negocios.</p>
+                            <a href="" class="read-more">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 no-padding"></div>
+        </div>
+    </div>
+</section>
+<!-- end technology-content -->
+
+<!-- smart-methodology -->
+<section class="smart-methodology">
+    <div class="container-fluid full-page">
+        <div class="row full-page align-items-center">
+            <div class="col-1 no-padding"></div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12 col-md-3 no-padding">
+                        <h4>Metodología SMART Convertia</h4>
+                        <button class="d-none d-md-block bg-green">Conoce más</button>
+                    </div>
+                    <div class="col-6 col-md-3 d-none d-md-block no-padding"></div>
+                    <div class="col-6 col-md-3 no-padding smart-card-left">
+                        <div class="card-item">
+                            <div class="col-12 no-padding">
+                                <img src="/wp-content/uploads/2021/11/conv-site-global-ico-estrategia-2.svg" alt="Estrategia" class="card-icon">
+                            </div>
+                            <h3>Estrategia</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 no-padding smart-card-right">
+                        <div class="card-item">
+                            <div class="col-12 no-padding">
+                                <img src="/wp-content/uploads/2021/11/conv-site-global-ico-procesos-1.svg" alt="Procesos" class="card-icon">
+                            </div>
+                            <h3>Procesos</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-3 d-none d-md-block no-padding"></div>
+                    <div class="col-6 col-md-3 no-padding smart-card-left">
+                        <a href="">
+                            <div class="card-item">
+                                <div class="col-12 no-padding">
+                                    <img src="/wp-content/uploads/2021/11/conv-site-global-ico-soporte.svg" alt="Soporte técnico" class="card-icon">
+                                </div>
+                                <h3>Soporte técnico</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 no-padding smart-card-right">
+                        <a href="">
+                            <div class="card-item">
+                                <div class="col-12 no-padding">
+                                    <img src="/wp-content/uploads/2021/11/conv-site-global-ico-adopcion-tecnologica.svg" alt="Adaptación tecnológica" class="card-icon">
+                                </div>
+                                <h3>Adaptación tecnológica</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 no-padding smart-card-left">
+                        <a href="">
+                        </a>
+                        <div class="card-item"><a href="">
+                                <div class="col-12 no-padding">
+                                    <img src="/wp-content/uploads/2021/11/conv-site-global-ico-ingenieria.svg" alt="Ingeniería" class="card-icon">
+                                </div>
+                                <h3>Ingeniería</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 d-block d-md-none text-center">
+                        <button class="bg-green">Conoce más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 no-padding"></div>
+        </div>
+    </div>
+</section>
+<!-- smart-methodology -->
+
+<!-- footer-addresses -->
+<section class="footer-addresses">
+    <div class="container-fluid no-padding">
+        <div class="row align-items-center">
+            <div class="col-1 no-padding"></div>
+            <div class="col-10 no-padding">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-xl-3 office">
+                        <h6>México<span class="d-inline d-md-none">, CDMX</span></h6>
+                        <address class="d-none d-md-block">Av. Ejército Nacional 373, Of. 401, Granada, Miguel Hidalgo.<br>CDMX, 11520.</address>
+                        <a href="tel:+5215547422180">(+52) 1 55 4742 2180</a>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 office">
+                        <h6>España<span class="d-inline d-md-none">, Madrid</span></h6>
+                        <address class="d-none d-md-block">Paseo de la Habana 1, planta 15,<br>28003, Madrid.</address>
+                        <a href="tel:+5215547422180">(+34) 911879897</a>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-3 office">
+                        <h6>Colombia<span class="d-inline d-md-none">, Bogotá</span></h6>
+                        <address class="d-none d-md-block">Calle 93 B No. 19-35,<br>Of. 201, Bogotá.</address>
+                        <a href="tel:+5215547422180">(+57) 1 514 1473 ext 201</a>
+                    </div>
+                    <div class="col-12 col-md-12 col-xl-3 net-socials">
+                        <ul>
+                            <li>
+                                <a class="ns-img-linkedin" href="https://www.linkedin.com/company/convertia/" target="_blank" rel="noopener"></a>
+                            </li>
+                            <li>
+                                <a class="ns-img-twitter" href="https://twitter.com/ConvertiaICA" target="_blank" rel="noopener"></a>
+                            </li>
+                            <li>
+                                <a class="ns-img-facebook" href="https://www.facebook.com/ConvertiaICA" target="_blank" rel="noopener"></a>
+                            </li>
+                            <li>
+                                <a class="ns-img-instagram" href="https://www.instagram.com/convertia_ica/" target="_blank" rel="noopener"></a>
+                            </li>
+                        </ul>
+                        <button class="bg-green">Visita nuestro Blog</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 no-padding"></div>
+        </div>
+    </div>
+</section>
+<!-- end addresses -->
+
+
+
+<!-- success-stories -->
+<!--2 cuadrados-->
+<!--
+<section class="success-stories">
+    <div class="container-fluid full-page">
+        <div class="row full-page align-items-center">
+            <div class="col-12 col-md-4 offset-md-1 no-padding sect-left">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 no-padding">
+                    <h4>Casos de éxito</h4>
+                    <button class="bg-blue d-none d-md-block bg-green">Conoce más</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 offset-md-2 no-padding sect-right">
+                <div class="col-10 offset-1 col-md-12 offset-md-0 no-padding">
+                    <h4>Casos de éxito</h4>
+                    <button class="bg-blue d-none d-md-block bg-green">Conoce más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- end success-stories -->
+
+
+
+<!-- XXXXXX -->
+<!-- TO COPY AND PASTE NO ERASE YET PLEASE!!!
+<section class="XXXXXX">
+    <div class="container-fluid full-page">
+        <div class="row">
+            <div class="col-1 no-padding"></div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-1 no-padding">1</div>
+                    <div class="col-1 no-padding">2</div>
+                    <div class="col-1 no-padding">3</div>
+                    <div class="col-1 no-padding">4</div>
+                    <div class="col-1 no-padding">5</div>
+                    <div class="col-1 no-padding">6</div>
+                    <div class="col-1 no-padding">7</div>
+                    <div class="col-1 no-padding">8</div>
+                    <div class="col-1 no-padding">9</div>
+                    <div class="col-1 no-padding">10</div>
+                    <div class="col-1 no-padding">11</div>
+                    <div class="col-1 no-padding">12</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 no-padding">6 IZQ / 12 IZQ MOBILE</div>
+                    <div class="col-12 col-md-6 no-padding">6 DER / 12 DER MOBILE</div>
+                </div>
+            </div>
+            <div class="col-1 no-padding"></div>
+        </div>
+    </div>
+</section>
+-->
+<!-- NEW XXXXXX -->
