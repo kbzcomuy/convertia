@@ -14,6 +14,7 @@
 if touchScroll is false - update index
  */
 
+/*
 (function (global,factory) {
   "use strict";
   if (typeof define === 'function' && define.amd) {
@@ -836,18 +837,28 @@ if touchScroll is false - update index
   return scrollify;
 }));
 // end jQuery Scrollify
+*/
 
 // ------------------------------------------------
 
 $( document ).ready(function() {
+  var scrollValue = $(window).scrollTop();
+  if (scrollValue > 45) {
+    $('.navbar').addClass('affix');
+  } else{
+    $('.navbar').removeClass('affix');
+  }
 
+
+  // scrollify
+  /*
   $(function() {
     $.scrollify({
       section : ".full-page-scroll",
       // sectionName : "section-name",
       interstitialSection : "",
       easing: "easeOutExpo",
-      scrollSpeed: 1100,
+      scrollSpeed: 800,
       offset : 0,
       scrollbars: true,
       standardScrollElements: "",
@@ -861,7 +872,32 @@ $( document ).ready(function() {
       afterRender:function() {}
     });
   });
+  */
 
+  // affix
+  $(window).on('scroll', function (event) {
+    var scrollValue = $(window).scrollTop();
+    if (scrollValue > 45) {
+      $('.navbar').addClass('affix');
+    } else{
+      $('.navbar').removeClass('affix');
+    }
+  });
+
+  function whenScrollify() {
+    var ancho = window.innerWidth;
+    if (ancho >= 768) {
+      $.scrollify.enable();
+    } else {
+      $.scrollify.disable();
+    }
+  };
+
+  $( window ).resize(function() {
+    // whenScrollify();
+  });
+
+  // whenScrollify();
   // console.log('kbz');
 
 });
